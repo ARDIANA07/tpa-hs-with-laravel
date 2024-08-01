@@ -34,13 +34,13 @@
 
         <header id="header" class="header d-flex align-items-center fixed-top">
             <div class="container-fluid container-l position-relative d-flex align-items-center">
-                <div class="col-4">
-                    <img src="{{ asset('assets/asset/img/logo_brand.png') }}" alt="logo" width="50%">
-                    <h2 class="font-family-align">Hidayatus Shibyan</h2>
-                </div>
-                @include('component.navbar')
+                <img src="{{ asset('assets/img/logo-tpa.jpg') }}" alt="logo" width="50px"> <br>
+                <span class="col-3"> TPA Hidayatus Shibyan</span>
 
-                <a class="btn-getstarted" href="/auth">Get Started</a>
+                @include('component.navbar')
+                <div class="col-3">
+                    <a class="btn-getstarted" href="/auth">Get Started</a>
+                </div>
 
             </div>
         </header>
